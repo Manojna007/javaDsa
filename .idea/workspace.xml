@@ -1,22 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b1ac905-4c4b-486f-8036-97cfcec6ac33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaDsa.iml" afterDir="false" />
+    <list default="true" id="3b1ac905-4c4b-486f-8036-97cfcec6ac33" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/containerWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/leaders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/maxSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/maxjminusi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/removeDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/secondLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/sortedArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/threeSumUnsorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/trappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/trappingRainWater2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Frequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/minSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/moveZeroToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/ropeCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/subsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathamatics/Lcm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathamatics/allDivisors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathamatics/allPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathamatics/fastPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathamatics/gcd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathamatics/palindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathamatics/primeOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/generateSubStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/numberOfPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/ratInMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/sumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/towerOfHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AZaQazvpfgNPSPuUFpvSfKbYfc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,9 +61,104 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "18"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.ropeCut">
+    <configuration name="Mathamatics.allDivisors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathamatics.allDivisors" />
+      <module name="javaDsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathamatics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mathamatics.allPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathamatics.allPrimes" />
+      <module name="javaDsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathamatics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fastPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathamatics.fastPower" />
+      <module name="javaDsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathamatics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="primeOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathamatics.primeOrNot" />
+      <module name="javaDsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathamatics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ropeCut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.ropeCut" />
+      <module name="javaDsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Remote" nameIsGenerated="true">
+      <module name="javaDsa" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Mathamatics.allDivisors" />
+      <item itemvalue="Application.Mathamatics.allPrimes" />
+      <item itemvalue="Application.fastPower" />
+      <item itemvalue="Application.primeOrNot" />
+      <item itemvalue="Application.ropeCut" />
+      <item itemvalue="Remote JVM Debug.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ropeCut" />
+        <item itemvalue="Application.primeOrNot" />
+        <item itemvalue="Application.fastPower" />
+        <item itemvalue="Application.Mathamatics.allPrimes" />
+        <item itemvalue="Application.Mathamatics.allDivisors" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,6 +168,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655219550794</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1655219964205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655219964205</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -52,5 +188,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Assignments/moveZeroToEnd.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
