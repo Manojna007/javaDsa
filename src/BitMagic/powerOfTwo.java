@@ -5,8 +5,7 @@ package BitMagic;
 
 public class powerOfTwo {
     static boolean ispow(int n){
-        int res=n &(n-1);
-        return res==0;
+        return (n!=0)&&((n&(n-1))==0);
     }
     public static void main(String[] args){
         int n=16 ;
