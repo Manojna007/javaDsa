@@ -32,7 +32,10 @@ public class treeCutting {
         return ans;
     }
     public static void main(String[] args){
+        int a[] = {6,5,10,9,2,4,9,5};
+        int k = 7;
 
+        System.out.println(woodCutter(a, k));
 
     }
 }
