@@ -1,36 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b1ac905-4c4b-486f-8036-97cfcec6ac33" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/containerWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/leaders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/maxSumSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/maxjminusi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/removeDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/secondLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/sortedArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/threeSumUnsorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/trappingRainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/trappingRainWater2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Frequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/minSumSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/moveZeroToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/ropeCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/subsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathamatics/Lcm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathamatics/allDivisors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathamatics/allPrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathamatics/fastPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathamatics/gcd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathamatics/palindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathamatics/primeOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/generateSubStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/numberOfPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/ratInMaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/sumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/towerOfHanoi.java" afterDir="false" />
+    <list default="true" id="3b1ac905-4c4b-486f-8036-97cfcec6ac33" name="Changes" comment="july 2 2022">
+      <change afterPath="$PROJECT_DIR$/src/Assignments/tralingZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/treeCutting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/linkedList_basics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Anagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/patternMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/reverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/rotationString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,21 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "18"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ropeCut">
-    <configuration name="Mathamatics.allDivisors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathamatics.allDivisors" />
+}</component>
+  <component name="RunManager" selected="Application.linkedList_basics">
+    <configuration name="linkedList_basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.linkedList_basics" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mathamatics.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mathamatics.allPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathamatics.allPrimes" />
+    <configuration name="maxAndValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.maxAndValue" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mathamatics.*" />
+          <option name="PATTERN" value="Assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fastPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathamatics.fastPower" />
+    <configuration name="patternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.patternMatching" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mathamatics.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="primeOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathamatics.primeOrNot" />
+    <configuration name="reverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.reverseWords" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mathamatics.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ropeCut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.ropeCut" />
+    <configuration name="tralingZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.tralingZeroes" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
@@ -142,20 +120,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Mathamatics.allDivisors" />
-      <item itemvalue="Application.Mathamatics.allPrimes" />
-      <item itemvalue="Application.fastPower" />
-      <item itemvalue="Application.primeOrNot" />
-      <item itemvalue="Application.ropeCut" />
+      <item itemvalue="Application.linkedList_basics" />
+      <item itemvalue="Application.patternMatching" />
+      <item itemvalue="Application.reverseWords" />
+      <item itemvalue="Application.tralingZeroes" />
+      <item itemvalue="Application.maxAndValue" />
       <item itemvalue="Remote JVM Debug.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ropeCut" />
-        <item itemvalue="Application.primeOrNot" />
-        <item itemvalue="Application.fastPower" />
-        <item itemvalue="Application.Mathamatics.allPrimes" />
-        <item itemvalue="Application.Mathamatics.allDivisors" />
+        <item itemvalue="Application.linkedList_basics" />
+        <item itemvalue="Application.tralingZeroes" />
+        <item itemvalue="Application.maxAndValue" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +151,42 @@
       <option name="project" value="LOCAL" />
       <updated>1655219964205</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first">
+      <created>1656510176406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656510176406</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first">
+      <created>1656609436992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656609436992</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first">
+      <created>1656695570068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656695570068</updated>
+    </task>
+    <task id="LOCAL-00005" summary="july 2 2022">
+      <created>1656769562619</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656769562619</updated>
+    </task>
+    <task id="LOCAL-00006" summary="july 2 2022">
+      <created>1656772867995</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656772867995</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +202,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="july 2 2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="july 2 2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -200,6 +212,11 @@
           <url>file://$PROJECT_DIR$/src/Assignments/moveZeroToEnd.java</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/ratInMaze.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
