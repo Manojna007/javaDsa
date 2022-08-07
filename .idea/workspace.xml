@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b1ac905-4c4b-486f-8036-97cfcec6ac33" name="Changes" comment="july 2 2022">
-      <change afterPath="$PROJECT_DIR$/src/Assignments/tralingZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/treeCutting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/linkedList_basics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/Anagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/patternMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/reverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/rotationString.java" afterDir="false" />
+    <list default="true" id="3b1ac905-4c4b-486f-8036-97cfcec6ac33" name="Changes" comment="new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/linkedList_basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/linkedList_basics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,19 +64,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="patternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.patternMatching" />
-      <module name="javaDsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="reverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.reverseWords" />
       <module name="javaDsa" />
@@ -109,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="treeCutting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.treeCutting" />
+      <module name="javaDsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="Remote" nameIsGenerated="true">
       <module name="javaDsa" />
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -121,8 +115,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.linkedList_basics" />
-      <item itemvalue="Application.patternMatching" />
       <item itemvalue="Application.reverseWords" />
+      <item itemvalue="Application.treeCutting" />
       <item itemvalue="Application.tralingZeroes" />
       <item itemvalue="Application.maxAndValue" />
       <item itemvalue="Remote JVM Debug.Unnamed" />
@@ -130,6 +124,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.linkedList_basics" />
+        <item itemvalue="Application.treeCutting" />
         <item itemvalue="Application.tralingZeroes" />
         <item itemvalue="Application.maxAndValue" />
       </list>
@@ -186,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656772867995</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new">
+      <created>1659198453229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659198453230</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new">
+      <created>1659198777151</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659198777151</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +212,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="july 2 2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="july 2 2022" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
