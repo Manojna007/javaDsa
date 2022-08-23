@@ -1,4 +1,7 @@
 package stacks;
+
+import java.util.ArrayDeque;
+
 //brute force
 public class maxAreaHistogram {
     static int maxArea(int a[]){
@@ -16,6 +19,7 @@ public class maxAreaHistogram {
         }
         return max;
     }
+
     public static void main(String [] args){
         int a[]={4,2,1,4,3,0,2,3};
         System.out.println(maxArea(a));
