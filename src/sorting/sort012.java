@@ -3,7 +3,7 @@ package sorting;
 public class sort012 {
 
 
-    static void sortColors(int[] nums) {
+    static void Sort012(int[] nums) {
         int low = 0;
         int high = nums.length - 1;
         int mid = 0;
@@ -17,7 +17,7 @@ public class sort012 {
                 mid++;
             } else if (nums[mid] == 1) {
                 mid++;
-            } else if (nums[mid] == 2) {
+            } else  {
                 temp = nums[high];
                 nums[high] = nums[mid];
                 nums[mid] = temp;
@@ -33,7 +33,7 @@ public class sort012 {
 
         public static void main (String[]args){
             int a[] = {2, 2, 1, 0, 0, 1, 2, 0, 1};
-            sortColors(a);
+            Sort012(a);
 
         }
 
