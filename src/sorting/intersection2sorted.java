@@ -8,6 +8,10 @@ public class intersection2sorted {
     static void intersection(int a[],int b[]){
         int i=0,j=0;
         while(i<a.length && j<b.length){
+            if(i>0 && a[i]==a[i-1]){
+                i++;
+                continue;
+            }
             if(a[i]==b[j]){
                 System.out.print(a[i]+" ");
                 i++;j++;
@@ -26,3 +30,6 @@ public class intersection2sorted {
         intersection(a,b);
     }
 }
+
+// to remove duplicates : if in any array if current element is same as previous
+// element then: index++
