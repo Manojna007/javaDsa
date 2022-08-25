@@ -7,9 +7,15 @@ public class quickSort {
         a[i]=a[j];
         a[j]=temp;
     }
+    static void random(int a[] ,int l,int h){
+        int rand=l+ (int) (Math.random()*(h-l+1));
+        swap(a,l,rand);
+    }
+    // to choose random element as pivot element
     static int partition(int a[], int l,int h) {
         int i = l;
         int j = h;
+        random(a,l,h);
         int pivot = a[l];
         while (i < j) {
             while (i<j && a[i] <= pivot) i++;
