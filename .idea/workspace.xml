@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b1ac905-4c4b-486f-8036-97cfcec6ac33" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/src/binarySearchTree/search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorting/mergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/linkedList_basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/linkedList_basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/quickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +39,13 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.linkedList_basics">
-    <configuration name="linkedList_basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.linkedList_basics" />
+  <component name="RunManager" selected="Application.mergeSort">
+    <configuration name="intersection2sorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.intersection2sorted" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxAndValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.maxAndValue" />
+    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.mergeSort" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignments.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.reverseWords" />
+    <configuration name="quickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.quickSort" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tralingZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.tralingZeroes" />
+    <configuration name="selectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.selectionSort" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignments.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="treeCutting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.treeCutting" />
+    <configuration name="sort012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.sort012" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,19 +116,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.linkedList_basics" />
-      <item itemvalue="Application.reverseWords" />
-      <item itemvalue="Application.treeCutting" />
-      <item itemvalue="Application.tralingZeroes" />
-      <item itemvalue="Application.maxAndValue" />
+      <item itemvalue="Application.intersection2sorted" />
+      <item itemvalue="Application.mergeSort" />
+      <item itemvalue="Application.quickSort" />
+      <item itemvalue="Application.sort012" />
+      <item itemvalue="Application.selectionSort" />
       <item itemvalue="Remote JVM Debug.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.linkedList_basics" />
-        <item itemvalue="Application.treeCutting" />
-        <item itemvalue="Application.tralingZeroes" />
-        <item itemvalue="Application.maxAndValue" />
+        <item itemvalue="Application.mergeSort" />
+        <item itemvalue="Application.quickSort" />
+        <item itemvalue="Application.sort012" />
+        <item itemvalue="Application.intersection2sorted" />
+        <item itemvalue="Application.selectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +198,56 @@
       <option name="project" value="LOCAL" />
       <updated>1659198777151</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new">
+      <created>1659875214177</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659875214179</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new">
+      <created>1660149081926</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660149081926</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new">
+      <created>1661237876580</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661237876581</updated>
+    </task>
+    <task id="LOCAL-00012" summary="new">
+      <created>1661411685232</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661411685232</updated>
+    </task>
+    <task id="LOCAL-00013" summary="new">
+      <created>1661414095821</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661414095822</updated>
+    </task>
+    <task id="LOCAL-00014" summary="new">
+      <created>1661416698030</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661416698030</updated>
+    </task>
+    <task id="LOCAL-00015" summary="new">
+      <created>1661417973303</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661417973303</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

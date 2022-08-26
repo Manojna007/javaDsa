@@ -11,7 +11,7 @@ public class quickSort {
         int rand=l+ (int) (Math.random()*(h-l+1));
         swap(a,l,rand);
     }
-    // to choose random element as pivot element
+    // to choose random element as pivot element(to avoid worst case)
     static int partition(int a[], int l,int h) {
         int i = l;
         int j = h;
