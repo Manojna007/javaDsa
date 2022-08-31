@@ -80,7 +80,7 @@ import java.util.Set;
         }
 
         // find pair with the given sum
-        int target = 28;
+        int target = 20;
 
         // create an empty set
         Set<Integer> set = new HashSet<>();
