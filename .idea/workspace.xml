@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b1ac905-4c4b-486f-8036-97cfcec6ac33" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/src/Queue/basics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue/queueUsingLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stacks/stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3b1ac905-4c4b-486f-8036-97cfcec6ac33" name="Changes" comment="newly commited" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +34,7 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Stack">
+  <component name="RunManager" selected="Application.add">
     <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stacks.Stack" />
       <module name="javaDsa" />
@@ -53,12 +48,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="countOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.countOccurrence" />
+    <configuration name="add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.add" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,20 +111,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.add" />
       <item itemvalue="Application.Stack" />
       <item itemvalue="Application.maxAreaHistogram" />
       <item itemvalue="Application.searchInfinitelySortedArray" />
-      <item itemvalue="Application.countOccurrence" />
       <item itemvalue="Application.searchRotatedSorted" />
       <item itemvalue="Remote JVM Debug.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.add" />
         <item itemvalue="Application.Stack" />
         <item itemvalue="Application.maxAreaHistogram" />
         <item itemvalue="Application.searchInfinitelySortedArray" />
         <item itemvalue="Application.searchRotatedSorted" />
-        <item itemvalue="Application.countOccurrence" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667227512251</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="newly commited">
+      <created>1675846544473</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675846544473</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +316,8 @@
     <MESSAGE value="first" />
     <MESSAGE value="july 2 2022" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="newly commited" />
+    <option name="LAST_COMMIT_MESSAGE" value="newly commited" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
