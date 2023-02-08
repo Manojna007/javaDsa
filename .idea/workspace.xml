@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b1ac905-4c4b-486f-8036-97cfcec6ac33" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/src/Assignments/twoSumHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binaryTrees/creation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/basics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/queueUsingLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stacks/stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +39,13 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.twoSumHash">
-    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.mergeSort" />
+  <component name="RunManager" selected="Application.Stack">
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.Stack" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="quickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.quickSort" />
+    <configuration name="countOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.countOccurrence" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarySearchTree.search" />
+    <configuration name="maxAreaHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.maxAreaHistogram" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarySearchTree.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sort012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.sort012" />
+    <configuration name="searchInfinitelySortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.searchInfinitelySortedArray" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="twoSumHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.twoSumHash" />
+    <configuration name="searchRotatedSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.searchRotatedSorted" />
       <module name="javaDsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignments.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,20 +116,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.twoSumHash" />
-      <item itemvalue="Application.search" />
-      <item itemvalue="Application.mergeSort" />
-      <item itemvalue="Application.quickSort" />
-      <item itemvalue="Application.sort012" />
+      <item itemvalue="Application.Stack" />
+      <item itemvalue="Application.maxAreaHistogram" />
+      <item itemvalue="Application.searchInfinitelySortedArray" />
+      <item itemvalue="Application.countOccurrence" />
+      <item itemvalue="Application.searchRotatedSorted" />
       <item itemvalue="Remote JVM Debug.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.twoSumHash" />
-        <item itemvalue="Application.search" />
-        <item itemvalue="Application.mergeSort" />
-        <item itemvalue="Application.quickSort" />
-        <item itemvalue="Application.sort012" />
+        <item itemvalue="Application.Stack" />
+        <item itemvalue="Application.maxAreaHistogram" />
+        <item itemvalue="Application.searchInfinitelySortedArray" />
+        <item itemvalue="Application.searchRotatedSorted" />
+        <item itemvalue="Application.countOccurrence" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +261,42 @@
       <option name="project" value="LOCAL" />
       <updated>1661538817302</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="new">
+      <created>1661965334728</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1661965334728</updated>
+    </task>
+    <task id="LOCAL-00019" summary="new">
+      <created>1661970238131</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1661970238132</updated>
+    </task>
+    <task id="LOCAL-00020" summary="new">
+      <created>1661971480283</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661971480283</updated>
+    </task>
+    <task id="LOCAL-00021" summary="new">
+      <created>1665081411475</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1665081411475</updated>
+    </task>
+    <task id="LOCAL-00022" summary="new">
+      <created>1667227512250</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667227512251</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
